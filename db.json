@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "yusril mahendri",
+      "password": "12345678",
+      "email": "yusrilmahendri@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "operator",
+      "name": "yusril mahendri",
+      "password": "12345678",
+      "email": "yusrilmahendri@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "operator  1",
+      "name": "yusril mahendri",
+      "password": "12345678",
+      "email": "yusrilmahendri@gmail.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "admin oeprator",
+      "name": "yusril mahendri",
+      "password": "12345678",
+      "email": "yusrilmahendri@gmail.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true
+    },
+    {
+      "id": "admin operator 1",
+      "name": "yusril mahendri",
+      "password": "12345678",
+      "email": "yusrilmahendri@gmail.com",
+      "gender": "male",
+      "role": "staff",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "staffs"
+    },
+    {
+      "code": "quality",
+      "name": "qualitys"
+    }
+  ]
+}

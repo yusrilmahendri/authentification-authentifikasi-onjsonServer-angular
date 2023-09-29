@@ -1,0 +1,24 @@
+<p>
+  <mat-toolbar color="primary">
+
+    <span>My Application</span>
+
+    <a routerLink="" mat-icon-button>
+      <mat-icon>home</mat-icon>
+    </a>
+
+    <a *ngIf="isAdminUser" routerLink="/user" mat-icon-button>
+      <mat-icon>account_circle</mat-icon>
+    </a>
+    
+    <span class="example-spacer"></span>
+    <a routerLink="/login" mat-icon-button>
+      <mat-icon>logout</mat-icon>
+    </a>
+  </mat-toolbar>
+</p>
+
+<!-- main content here -->
+<div class="content" style="width: 100%; display:block" role="main">
+  <router-outlet></router-outlet>
+</div>

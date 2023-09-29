@@ -1,0 +1,32 @@
+mat-card{
+  max-width: 50%; /* Adjust the width as needed */
+  width: 100%;
+  margin: 0 auto;
+}
+.example-form {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    position: center;
+  }
+  
+.example-full-width {
+    width: 100%;
+  }
+
+.radio-group{
+    margin-bottom: 50px;
+}
+
+.button-registration button,
+.button-registration a {
+  margin-bottom: 10px; 
+}
+
+.button-registration{
+    margin-left: 25px;
+    position: absolute;
+    padding: -10px; 
+    display: flex;
+    gap: 10px; 
+}
