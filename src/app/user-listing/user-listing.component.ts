@@ -54,8 +54,4 @@ export class UserListingComponent {
       this.loadUsers();
     });
   }
-
-  openDialog(){
-   
-  }
 }

@@ -28,7 +28,7 @@ export class UpdatepopupComponent implements OnInit {
    if(this.data.userCode != null && this.data.userCode != ''){
     this.service.getByCode(this.data.userCode).subscribe(res => {
       this.editData = res;
-      this.editData.patchValue({
+      this.updatedForm.patchValue({
         id: this.editData.id, 
         name: this.editData.name,
         email: this.editData.email,
